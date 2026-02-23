@@ -39,8 +39,10 @@ from indicator import compute_signals
 # Or replace the fallback string below with your URL for local testing only.
 DISCORD_WEBHOOK_URL = os.environ.get(
     "DISCORD_WEBHOOK_URL",
-    "https://discord.com/api/webhooks/1463019737297453242/2iKe5IqTAoy0FeQeXOxrXG1YeQQqRRhlOusNz8Py0w_3wjk7nkfoxsknjDdNpUk-sbx5"
+    "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN"
 )
+
+
 
 # Path to your watchlist file (one ticker per line)
 STOCKS_FILE = "stocks.txt"
